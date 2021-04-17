@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #2C2F33;
+}
+
+a{
+  text-decoration: none;
+  color: #7289DA;
+}
+
+
+svg{
+  fill: #fff;
+  height: 10rem;
+  width: 10rem;
+  padding-left: 23%;
+  padding-top: 20%;
+}
+
+
+.wrapper {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  width: 300px;
+  height: 500px;
+  perspective: 900px;
+}
+
+.container {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  transition: .5s all ease;
+  transform: rotateX(35deg) scale(0.7);
+  perspective: 900px;
+  animation: entry 1s linear 1;
+  border: 3px solid #99AAB5;
+  border-radius: 1rem;
+  background: #000;
+}
+
+#c1 {
+  left: 100%;
+  z-index: 0;
+}
+
+#c2 {
+  left: -100%;
+  z-index: 0;
+}
+
+.container:hover {
+  cursor: pointer;
+  transform: rotate(0deg) scale(1) translateY(10px);
+  transition: .5s all ease;
+  z-index: 400;
+  box-shadow: 0px 10px 50px #7289DA;
+}
+
+.image {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 45%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.story {
+  position: absolute;
+  top: 45%;
+  left: 0%;
+  height: 55%;
+  width: 100%;
+  z-index: 30;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.info {
+  position: absolute;
+  top: 10%;
+}
+
+
+h3 {
+  text-align: center;
+  color: #7289DA;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+h1 {
+  color: #fff;
+  position: fixed;
+  top: 0%;
+  left: 22%;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 14px;
+  color: #7289DA;
+  padding: 0px 20px 20px 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+
+@keyframes entry {
+  0% {
+    top: -20%;
+    opacity: 0.1;
+  }
+  100% {
+    top: 0%;
+  }
+}
