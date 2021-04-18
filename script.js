@@ -1,6 +1,6 @@
 $.ajaxSetup({
   headers : {
-    'Authorization' : 'Bot NjM1NTUxMDA2OTg5NjE1MTQy.XaytAA.Pz0-0E1AK1Mlf0ZyZ3ZAdQrI4vo',
+    'Authorization' : 'Bot NjM1NTUxMDA2OTg5NjE1MTQy.XaytAA.N_DeVWYRTxXIlypVQkPChO_qD9M',
     'Content-Type' : 'application/json'
   }
 });
