@@ -1,2 +1,3 @@
-# JS file
-*.js
+# JSON file
+*.json
+config.json
