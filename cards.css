@@ -24,9 +24,9 @@ svg{
   position: absolute;
   top: 10%;
   left: 40%;
-  width: 300px;
-  height: 500px;
-  perspective: 900px;
+  width: 18.75rem;
+  height: 31.25rem;
+  perspective: 56.25rem;
 }
 
 .container {
@@ -36,9 +36,9 @@ svg{
   height: 100%;
   transition: .5s all ease;
   transform: rotateX(35deg) scale(0.7);
-  perspective: 900px;
+  perspective: 56.25rem;
   animation: entry 1s linear 1;
-  border: 3px solid #99AAB5;
+  border: 0.18rem solid #99AAB5;
   border-radius: 1rem;
   background: #000;
 }
@@ -55,10 +55,10 @@ svg{
 
 .container:hover {
   cursor: pointer;
-  transform: rotate(0deg) scale(1) translateY(10px);
+  transform: rotate(0deg) scale(1) translateY(0.625rem);
   transition: .5s all ease;
   z-index: 400;
-  box-shadow: 0px 10px 50px #7289DA;
+  box-shadow: 0rem 0.625rem 3.125rem #7289DA;
 }
 
 .image {
@@ -89,9 +89,9 @@ svg{
 h3 {
   text-align: center;
   color: #7289DA;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 h1 {
@@ -99,16 +99,16 @@ h1 {
   position: fixed;
   top: 0%;
   left: 22%;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
 }
 
 p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #7289DA;
-  padding: 0px 20px 20px 20px;
+  padding: 0rem 1.25rem 1.25rem 1.25rem;
   line-height: 150%;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   font-weight: bolder;
 }
 

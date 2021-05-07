@@ -1,8 +1,10 @@
 #dcavatar{
   height: 5rem;
   width: 5rem;
-  border-radius: 50%;
+  border-radius: 100%;
   margin-left: 93%;
+  border-color: #2C2F33;
+  border: 0rem;
 }
 
 ul {
@@ -16,28 +18,31 @@ ul {
   text-decoration: none;
 }
 
+
 ul li {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 0.625rem;
   text-decoration: none;
 }
+
 
 ul li a {
   position: relative; 
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
   text-align: center;
-  line-height: 63px;
+  line-height: 3.93rem;
   border-radius: 50%;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #7289DA;
   transition: transform 0.5s linear 0.5s;
   text-decoration: none;
   animation: cardentry 1s linear 1;
 }
+
 
 ul li a::before {
   content: '';
@@ -54,12 +59,14 @@ ul li a::before {
   text-decoration: none;
 }
 
+
 ul li a:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #fff;
+  box-shadow: 0 0 0.9rem #fff;
   text-decoration: none;
   background: #000;
 }
+
 
 ul li a:hover {
   color: #fff;
@@ -75,5 +82,28 @@ ul li a:hover {
   }
   100% {
     bottom: 0%;
+  }
+}
+
+
+@media only screen and (min-width: 768px){
+  ul{
+    left: 50%;
+    bottom: -10%;
+  }
+
+  ul li a {
+    font-size: 4rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  #dcavatar{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    margin-left: 85%;
+    border-color: #2C2F33;
+    border: 0rem;
   }
 }
