@@ -86,23 +86,18 @@ ul li a:hover {
 }
 
 
-@media only screen and (min-width: 768px){
-  ul{
-    left: 50%;
-    bottom: -10%;
-  }
-
+@media only screen and (max-width: 768px){
   ul li a {
-    font-size: 4rem;
-    width: 4rem;
-    height: 4rem;
+    font-size: 2.5rem;
+    bottom: 100%;
+    left: 20%;
   }
 
   #dcavatar{
-    height: 5rem;
-    width: 5rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 100%;
-    margin-left: 85%;
+    margin-left: 88%;
     border-color: #2C2F33;
     border: 0rem;
   }

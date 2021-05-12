@@ -98,7 +98,8 @@ h1 {
   color: #fff;
   position: fixed;
   top: 0%;
-  left: 22%;
+  left: 40%;
+  text-align: center;
   letter-spacing: 0.125rem;
 }
 
@@ -119,5 +120,16 @@ p {
   }
   100% {
     top: 0%;
+  }
+}
+
+
+@media only screen and (max-width: 768px){
+  h1 {
+    color: #fff;
+    position: fixed;
+    width: 50%;
+    text-align: center;
+    /*bottom: 30%;*/
   }
 }
