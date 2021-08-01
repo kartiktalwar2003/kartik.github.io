@@ -4,7 +4,3 @@ $.getJSON("https://kartik-avatar.herokuapp.com",
 		$(".avatar").attr("src", avatar);
 	}
 );
-
-$('.carousel-3d-autoplay-off').mdbCarousel3d({
-	autoplay: false
-  });
