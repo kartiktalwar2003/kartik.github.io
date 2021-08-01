@@ -5,6 +5,11 @@ body {
   background: #2C2F33;
 }
 
+.heading-text::after {
+  content: "Hey, I'm Kartik Talwar";
+}
+
+
 a{
   text-decoration: none;
   color: #7289DA;
@@ -27,6 +32,7 @@ svg{
   width: 18.75rem;
   height: 31.25rem;
   perspective: 56.25rem;
+  display: flex;
 }
 
 .container {
@@ -72,19 +78,13 @@ svg{
 
 .story {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 0%;
   height: 55%;
   width: 100%;
   z-index: 30;
   border-radius: 0 0 1rem 1rem;
 }
-
-.info {
-  position: absolute;
-  top: 10%;
-}
-
 
 h3 {
   text-align: center;
@@ -98,8 +98,10 @@ h1 {
   color: #fff;
   position: fixed;
   top: 0%;
+  display: block;
+  width: 50%;
   left: 40%;
-  text-align: center;
+  /*text-align: center;*/
   letter-spacing: 0.125rem;
 }
 
@@ -129,7 +131,20 @@ p {
     color: #fff;
     position: fixed;
     width: 50%;
+    display: block;
+    left: 6rem;
     text-align: center;
-    /*bottom: 30%;*/
+    font-size: 1.75rem;
+  }
+
+  .heading-text::after {
+    content: "Kartik Talwar";
+  }
+
+  .wrapper {
+    height: 31.25rem;
+    width: 18.75rem;
+    left: 12%;
+    display:flex;
   }
 }
