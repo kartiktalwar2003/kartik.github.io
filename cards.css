@@ -114,6 +114,7 @@ p {
   font-weight: bolder;
 }
 
+
 @keyframes entry {
   0% {
     top: -20%;
@@ -123,7 +124,6 @@ p {
     top: 0%;
   }
 }
-
 
 @media only screen and (max-width: 768px){
   h1 {
