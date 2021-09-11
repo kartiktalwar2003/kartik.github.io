@@ -32,6 +32,7 @@ svg{
   width: 18.75rem;
   height: 31.25rem;
   perspective: 56.25rem;
+  display: flex;
 }
 
 .container {
@@ -114,7 +115,6 @@ p {
   font-weight: bolder;
 }
 
-
 @keyframes entry {
   0% {
     top: -20%;
@@ -124,6 +124,7 @@ p {
     top: 0%;
   }
 }
+
 
 @media only screen and (max-width: 768px){
   h1 {
@@ -144,13 +145,6 @@ p {
     height: 31.25rem;
     width: 18.75rem;
     left: 12%;
-  }
-
-  #c1 {
-    display: none;
-  }
-
-  #c2 {
-    display: none;
+    flex-direction: column;
   }
 }
