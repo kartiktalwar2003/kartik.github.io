@@ -1,0 +1,19 @@
+.name{
+    text-align: center;
+}
+
+.content{
+    text-decoration: none;
+    text-align: justify;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.tools{
+    font-size: 2rem;
+}
+
+.icon-desc{
+    font-size: 0.5rem;
+}
